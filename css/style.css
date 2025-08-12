@@ -67,13 +67,14 @@ h1,h2,h3,h4,h5,h6 p{
     background-repeat: no-repeat;
 }
 .bannartext h3{
-        color: #fff;
+    color: #fff;
     font-size: 27px;
     font-weight: 400;
     font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
 }
 .bannartext h1{
-        color: #fff;
+    color: #fff;
     font-size: 60px;
     font-weight: 600;
     font-family: "Oswald", sans-serif;
@@ -81,6 +82,7 @@ h1,h2,h3,h4,h5,h6 p{
     padding-bottom: 20px;
     position: relative;
     display: inline-block;
+    text-transform: uppercase;
 }
 .bannartext h1::after{
     position: absolute;
@@ -109,7 +111,6 @@ h1,h2,h3,h4,h5,h6 p{
     font-family: "Oswald", sans-serif;
     display: inline-block;
     margin-bottom: 300px;
-
 }
 .bannaricon a{
     padding: 10px;
@@ -117,4 +118,27 @@ h1,h2,h3,h4,h5,h6 p{
     border-radius: 50%; 
     margin-right:15px;
     color: #000000;
+}
+#aboutpart{
+    padding-top: 35px;
+    padding-bottom: 60px;
+    background-color: #121212;
+}
+.abouthead h3{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    width: 518px;
+    font-family: "Oswald", sans-serif;
+    line-height: 56px;
+    position: relative;
+}
+.abouthead h3::after {
+    position: absolute;
+    height: 3px;
+    width: 100px;
+    background-color: #FF4655;
+    bottom: 12px;
+    right: 226px;
+    content: "";
 }
