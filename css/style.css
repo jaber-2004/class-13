@@ -118,6 +118,13 @@ h1,h2,h3,h4,h5,h6 p{
     border-radius: 50%; 
     margin-right:15px;
     color: #000000;
+    border: none;
+    border: 2px solid #fff;
+
+}
+.bannaricon a:hover{
+    color: #FF4655;
+    background: transparent;
 }
 #aboutpart{
     padding-top: 35px;
@@ -259,8 +266,6 @@ h1,h2,h3,h4,h5,h6 p{
     padding-top: 100px;
     padding-bottom: 90px;
     background-color: #121212;
-    
-
 }
 .videohead h3{
     color: #fff;
