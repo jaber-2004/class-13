@@ -142,3 +142,491 @@ h1,h2,h3,h4,h5,h6 p{
     right: 226px;
     content: "";
 }
+.tmflex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+.img{
+    width:40%;
+}
+.text{
+    color: #fff;
+    width:40%;
+}
+.text h3{
+     font-size: 27px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 20px;
+}
+.text h6{
+     font-size: 18px;
+    font-weight: 400;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-bottom: 20px;
+}
+.text p{
+      font-size: 18px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+.iteamflex{
+     display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.iteam{
+    width: 24%;
+    background-color: #212121;
+    padding: 30px 0;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    color: #fff;
+     border: 2px solid  #212121;
+     transition: .4s;
+}
+.iteam:hover{
+    background: transparent;
+    color: #FF4655;
+}
+.iteam h3{
+     font-size: 60px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-bottom: 40px;
+}
+.iteam p{
+     font-size: 18px;
+    font-weight: 300;
+     font-family: "Oswald", sans-serif;
+}
+#picture{
+    background-color: #191919;
+      padding-top: 125px;
+    padding-bottom: 90px;
+
+}
+.parnt{
+    position: relative;
+}
+.ptext h3 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    width: 449px;
+    text-align: end;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-left: 914px;
+    line-height: 46px;
+    position: relative;
+}
+.ptext h3::after {
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    background-color: #FF4655;
+    right: 115px;
+    bottom: 7px;
+    content: "";
+}
+.imgflex{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.imgone{
+    width: 50%;
+
+}
+.imgtwo{
+     width: 50%;
+     padding-top: 180px;
+}
+.icon{
+    position: absolute;
+      bottom: 0%;
+    right: 0%;
+
+}
+.icon svg{
+        display: block;
+        padding-bottom: 20px;
+  
+}
+#videopart{
+    padding-top: 100px;
+    padding-bottom: 90px;
+    background-color: #121212;
+    
+
+}
+.videohead h3{
+    color: #fff;
+      font-size: 38px;
+    font-weight: 600;
+    width: 600px;
+    line-height: 56px;
+    position: relative;
+    
+}
+.videohead h3::after {
+    position: absolute;
+    height: 4px;
+    width: 120px;
+    background-color: #FF4655;
+    bottom: 15px;
+    right: 293px;
+    content: "";
+}
+.videoflex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+.video{
+    width: 32%;
+}
+
+.textcenter h4{
+    color: #fff;
+    text-align: center;
+       font-size: 25px;
+    font-weight: 500;
+    padding-top: 60px;
+     font-family: "Barlow Condensed", sans-serif;
+     margin-bottom: 40px;
+}
+.teamflex{
+    display: flex;
+    justify-content: space-between;.
+      padding-top: 20px;
+}
+.teamflex h3{
+    color: #fff;
+    align-items: center;
+    padding-top: 40px; 
+    font-size: 40px;
+    font-weight: 500;  
+      font-family: "Oswald", sans-serif;
+
+}
+
+.teambottomflex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.teambottomflex h3{
+    color: #fff;
+    align-items: center;
+    padding-top: 40px;  
+    font-size: 40px;
+    font-weight: 500;  
+      font-family: "Oswald", sans-serif;
+}
+
+#cardpart{
+    padding: 90px 0;
+    background-color: #191919;
+}
+.cardhead h3 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: end;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-left: 914px;
+    line-height: 46px;
+    position: relative;
+}
+.cardhead h3::before {
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    background-color: #FF4655;
+    bottom: 8px;
+    right: 87px;
+    content: "";
+}
+.cardflex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.cardimg{
+    width: 24%; 
+
+}
+
+.cardtext{
+    display: inline-block;
+}
+.cardtext h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+        font-family: "Barlow Condensed", sans-serif;
+        padding: 15px 0;
+}
+.cardtext p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+     font-family: "Oswald", sans-serif;
+        padding: 10px 0;
+}
+span{
+    color: #fff;
+          font-size: 14px;
+    font-weight: 400;
+    background-color: #FF4655;
+    padding: 5px;
+    display: inline-block;
+       margin-right: 10px;
+}
+.cardtext h5{
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+     font-family: "Oswald", sans-serif;
+     padding: 10px 0;
+}
+.cardtext h6{
+    color: #fff;
+        font-size: 16px;
+    font-weight: 400;
+     font-family: "Oswald", sans-serif;
+
+}
+.cardimg h6{
+    color: #fff;
+     font-size: 16px;
+    font-weight: 500;
+    width: 159px;
+     font-family: "Barlow Condensed", sans-serif;
+     padding: 20px 0;
+}
+.textimgflex{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+}
+.textt{
+    width: 40%;
+    padding-left: 20px;
+}
+.textt h6{
+    color: #FF4655;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+
+}
+.textt h3{
+     color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    width: 580px;
+    line-height: 46px;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-top: 20px;
+}
+.textt p{
+     font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+    width: 603px;
+    line-height: 24px;
+    font-family: "Oswald", sans-serif;
+}
+.textt a{
+    color: #fff;
+    background-color: #121212;
+     font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+     font-family: "Oswald", sans-serif;
+}
+.imgg{
+    width: 50%;
+}
+#pricepart{
+    padding-top: 100px;
+    padding-bottom: 90px;
+    background-color: #121212;
+}
+.pricetext h3{
+      color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    width: 446px;
+    font-family: "Oswald", sans-serif;
+    line-height: 56px;
+    position: relative;
+}
+.pricetext h3::before {
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    background-color: #FF4655;
+    bottom: 9px;
+    right: 141px;
+    content: "";
+}
+.priceimgflex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.priceimg{
+    width: 24%;
+}
+#teammember{
+    padding-top: 115px;
+    padding-bottom: 80px;
+    background-color: #191919;
+}
+.teamtext h3{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: end;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-left: 914px;
+    line-height: 46px;
+    position: relative;
+    
+}
+.teamtext h3::before {
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    background-color: #FF4655;
+    bottom: 8px;
+    right: 75px;
+    content: "";
+}
+.membertopflex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    position: relative;
+}
+.memberbottomflex{
+     display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.member{
+    width: 49%;
+} 
+.member img{
+    width: 100%;
+}
+.imgtext{
+    padding: 20px;
+}
+.imgtext h3{
+    position: absolute;
+    left: 0%;
+    bottom: 8%;
+}
+#anspart{
+    padding-top: 65px;
+    padding-bottom: 230px;
+    background-color: #121212;
+}
+.anstext h3{
+      color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    width: 493px;
+    font-family: "Oswald", sans-serif;
+    line-height: 56px;
+    position: relative;
+}
+.anstext h3::before {
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    background-color: #FF4655;
+    bottom: 9px;
+    right: 50px;
+    content: "";
+}
+.ansflex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.ansiteam{
+    width: 40%;
+}
+.ansbottomfles{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+}
+.footerpart{
+    padding: 80px 0;
+    background-color: #191919;
+}
+.footertextflex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF4655;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+.footeertext{
+    width: 45%;
+   
+}
+.footeertext h3{
+      color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    width: 725px;
+     font-family: "Barlow Condensed", sans-serif;
+    line-height: 48px;
+    text-transform: uppercase;
+     padding-left: 20px;
+}
+.news{
+   width: 40%;
+    position: relative;
+}
+.myinput{
+    padding: 14px 20px ;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 70%;
+    position: relative;
+}
+.sbtn {
+    padding: 12px 28px;
+    background-color: #191919;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    right: 77px;
+    top: 0px;
+    border: 2px solid #FF4655;
+      
+}
+.news,.sbtn:hover{
+    color: #000000;
+    background: transparent;
+}
